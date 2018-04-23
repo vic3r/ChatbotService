@@ -1,24 +1,31 @@
 {
-  "name": "chatbotservice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vic3r/ChatbotService.git"
-  },
-  "author": "Victor Garcia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vic3r/ChatbotService/issues"
-  },
-  "homepage": "https://github.com/vic3r/ChatbotService#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "dotenv": "^5.0.1",
-    "express": "^4.16.3"
-  }
+    "name": "chatbotservice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "start:dev": "nodenv -f ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vic3r/ChatbotService.git"
+    },
+    "author": "Victor Garcia",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vic3r/ChatbotService/issues"
+    },
+    "homepage": "https://github.com/vic3r/ChatbotService#readme",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "dotenv": "^5.0.1",
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "node-env": "^0.1.6",
+        "node-env-run": "^3.0.2",
+        "run": "^1.4.0"
+    }
 }
