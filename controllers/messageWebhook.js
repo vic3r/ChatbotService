@@ -1,6 +1,6 @@
 const processMessage = require('../helpers/processMessage');
 
-let message = (req, res) => {
+module.exports = (req, res) => {
     if (req.body.object === 'page') {
         req.body.entry.forEach(entry => {
             entry.messaging.forEach(event => {
@@ -9,6 +9,7 @@ let message = (req, res) => {
                 }
             });
         });
+
         res.status(200).end();
     }
 };
