@@ -19,9 +19,12 @@
     },
     "homepage": "https://github.com/vic3r/ChatbotService#readme",
     "dependencies": {
+        "apiai": "^4.0.3",
         "body-parser": "^1.18.2",
         "dotenv": "^5.0.1",
-        "express": "^4.16.3"
+        "express": "^4.16.3",
+        "nodemon": "^1.17.5",
+        "request": "^2.87.0"
     },
     "devDependencies": {
         "node-env": "^0.1.6",
